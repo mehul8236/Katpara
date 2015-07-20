@@ -30,9 +30,9 @@ class CreateBusinessTables extends Migration {
             $table->string('city');
             $table->string('region');
             $table->string('postalcode');
-            $table->string('country');
-            $table->string('country_code');
             $table->string('region_code');
+            $table->integer('country_id')->unsigned();
+            $table->foreign('country_id')->references('id')->on('countries');
         });
 
         // create table to store business informations
@@ -51,8 +51,7 @@ class CreateBusinessTables extends Migration {
             $table->string('logo')->nullable();
             $table->string('dir');
             $table->timestamps();
-            $table->foreign('user_id')->references('id')->on('users')
-                  ->onUpdate('cascade')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('field_id')->references('id')->on('fields');
             $table->foreign('address_id')->references('id')->on('addresses')
                   ->onUpdate('cascade')->onDelete('cascade');
@@ -69,11 +68,35 @@ class CreateBusinessTables extends Migration {
             $table->string('city');
             $table->string('region');
             $table->string('postalcode');
-            $table->string('country');
-            $table->string('country_code');
+            $table->integer('country_id')->unsigned();
             $table->string('region_code');
             $table->foreign('business_id')->references('id')->on('businesses')
                   ->onUpdate('cascade')->onDelete('cascade');
+            $table->foreign('country_id')->references('id')->on('countries');
+        });
+
+        // Creates the users table
+        Schema::create('countries'), function($table)
+        {           
+            $table->integer('id')->index();
+            $table->string('capital', 255)->nullable();
+            $table->string('citizenship', 255)->nullable();
+            $table->string('country_code', 3)->default('');
+            $table->string('currency', 255)->nullable();
+            $table->string('currency_code', 255)->nullable();
+            $table->string('currency_sub_unit', 255)->nullable();
+            $table->string('currency_symbol', 3)->nullable();
+            $table->string('full_name', 255)->nullable();
+            $table->string('iso_3166_2', 2)->default('');
+            $table->string('iso_3166_3', 3)->default('');
+            $table->string('name', 255)->default('');
+            $table->string('region_code', 3)->default('');
+            $table->string('sub_region_code', 3)->default('');
+            $table->boolean('eea')->default(0);
+            $table->string('calling_code', 3)->nullable();
+            $table->string('flag', 6)->nullable();
+            
+            $table->primary('id');
         });
 
     }
@@ -89,6 +112,7 @@ class CreateBusinessTables extends Migration {
         Schema::dropIfExists('businesses');
         Schema::dropIfExists('addresses');
         Schema::dropIfExists('fields');
+        Schema::dropIfExists('countries'));
     }
 
 }

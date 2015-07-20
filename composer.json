@@ -12,7 +12,8 @@
         "igaster/laravel-theme": "~1.0",
         "illuminate/html": "5.*",
         "roumen/asset": "dev-master",
-        "torann/geoip": "0.2.*@dev"
+        "torann/geoip": "0.2.*@dev",
+        "webpatser/laravel-countries": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

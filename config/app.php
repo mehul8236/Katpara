@@ -153,6 +153,7 @@ return [
         igaster\laravelTheme\themeServiceProvider::class,
         Roumen\Asset\AssetServiceProvider::class,
         Torann\GeoIP\GeoIPServiceProvider::class,
+        Webpatser\Countries\CountriesServiceProvider::class
 
     ],
 
@@ -213,6 +214,7 @@ return [
         'Theme'     => igaster\laravelTheme\Facades\Theme::class,
         'Asset'     => Roumen\Asset\Asset::class,
         'GeoIP'     => Torann\GeoIP\GeoIPFacade::class,
+        'Countries' => Webpatser\Countries\CountriesFacade::class,
     ],
 
 ];

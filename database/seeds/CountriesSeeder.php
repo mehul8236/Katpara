@@ -1,26 +1,23 @@
-<?php namespace Components\Business\Database\Seeders;
+<?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model;
 
-class BusinessDatabaseSeeder extends Seeder {
+class CountriesSeeder extends Seeder {
 
-	/**
-	 * Run the database seeds.
-	 *
-	 * @return void
-	 */
-	public function run()
-	{
-		Model::unguard();
-		 
-		//Empty the countries table
-        \DB::table('countries')->delete();
+    /**
+     * Run the database seeds.
+     *
+     * @return  void
+     */
+    public function run()
+    {
+        //Empty the countries table
+        DB::table(\Config::get('countries.table_name'))->delete();
 
         //Get all of the countries
-        $countries = \Countries::getList();
+        $countries = Countries::getList();
         foreach ($countries as $countryId => $country){
-            \DB::table('countries')->insert(array(
+            DB::table(\Config::get('countries.table_name'))->insert(array(
                 'id' => $countryId,
                 'capital' => ((isset($country['capital'])) ? $country['capital'] : null),
                 'citizenship' => ((isset($country['citizenship'])) ? $country['citizenship'] : null),
@@ -40,6 +37,5 @@ class BusinessDatabaseSeeder extends Seeder {
                 'flag' =>((isset($country['flag'])) ? $country['flag'] : null),
             ));
         }
-	}
-
+    }
 }
