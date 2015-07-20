@@ -19,7 +19,7 @@ class CreateBusinessTables extends Migration {
             $table->increments('id');
             $table->string('name');
             $table->string('label');
-            $table->longText('description');
+            $table->longText('description')->nullable();
         });
 
         // create table to store business address
