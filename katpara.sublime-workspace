@@ -1,0 +1,1253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"te",
+				"text-align: 〔property〕"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"va",
+				"$validator〔variable〕"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"fi",
+				"$field〔variable〕"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"remo",
+				"removeClass〔function〕"
+			],
+			[
+				"sub",
+				"submit〔function〕"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"la",
+				"lang"
+			],
+			[
+				"com",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"regi",
+				"registerTheme"
+			],
+			[
+				"vi",
+				"views"
+			],
+			[
+				"view",
+				"views"
+			],
+			[
+				"ti",
+				"$time_stamp〔variable〕"
+			],
+			[
+				"date",
+				"$date_stamp〔variable〕"
+			],
+			[
+				"comp",
+				"$company_name〔variable〕"
+			],
+			[
+				"T",
+				"TEXT_LEFT_MARGIN"
+			],
+			[
+				"_create",
+				"_createBlindShip"
+			],
+			[
+				"po",
+				"$po_number〔variable〕"
+			],
+			[
+				"bli",
+				"$blind_ship〔variable〕"
+			],
+			[
+				"hs",
+				"$hst_gst〔variable〕"
+			],
+			[
+				"bi",
+				"$bill_region〔variable〕"
+			],
+			[
+				"a",
+				"$array〔variable〕"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"to",
+				"$total_x1〔variable〕"
+			],
+			[
+				"h",
+				"$h_end〔variable〕"
+			],
+			[
+				"tot",
+				"$total_x1〔variable〕"
+			],
+			[
+				"pa",
+				"$page_width〔variable〕"
+			],
+			[
+				"total_",
+				"total_x2"
+			],
+			[
+				"bo",
+				"box_text_hight"
+			],
+			[
+				"he",
+				"$height〔variable〕"
+			],
+			[
+				"shi",
+				"$ship_add_2〔variable〕"
+			],
+			[
+				"f",
+				"FONT_SMALL〔constant〕"
+			],
+			[
+				"sel",
+				"self〔keyword〕"
+			],
+			[
+				"page",
+				"$page_width〔variable〕"
+			],
+			[
+				"it",
+				"$itek_part〔variable〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"b",
+				"billAddressData"
+			],
+			[
+				"wi",
+				"$width〔variable〕"
+			],
+			[
+				"x",
+				"$x2〔variable〕"
+			],
+			[
+				"sty",
+				"$style〔variable〕"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getPath〔function〕"
+			],
+			[
+				"pdf",
+				"pdf_path"
+			],
+			[
+				"p",
+				"pdf"
+			],
+			[
+				"_",
+				"_createPdf"
+			],
+			[
+				"bil",
+				"$blind_ship〔variable〕"
+			],
+			[
+				"ship",
+				"$shipAddressData〔variable〕"
+			],
+			[
+				"_get",
+				"_getPdfFile〔function〕"
+			],
+			[
+				"bill",
+				"$billAddressData〔variable〕"
+			],
+			[
+				"save",
+				"$save_ship_address〔variable〕"
+			],
+			[
+				"sav",
+				"$save_bill_address〔variable〕"
+			],
+			[
+				"sa",
+				"save_in_address_book"
+			],
+			[
+				"submit",
+				"submit_button"
+			],
+			[
+				"cla",
+				"class=〔attribute〕"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wide",
+				"width: 〔property〕"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ver",
+				"vertical-align: 〔property〕"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background: 〔property〕"
+			],
+			[
+				"padd",
+				"padding-right: 〔property〕"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"emai",
+				"email_path"
+			],
+			[
+				"mail",
+				"mailboxes"
+			],
+			[
+				"mai",
+				"$mailbox_full_name〔variable〕"
+			],
+			[
+				"un",
+				"unread"
+			],
+			[
+				"gett",
+				"gettype〔function〕"
+			],
+			[
+				"ma",
+				"$mailbox〔variable〕"
+			],
+			[
+				"Mai",
+				"Mailbox"
+			],
+			[
+				"mailbox",
+				"mailboxes"
+			],
+			[
+				"all",
+				"$all_boxes〔variable〕"
+			],
+			[
+				"Co",
+				"Components〔namespace〕"
+			],
+			[
+				"is",
+				"is_ket_set〔variable〕"
+			],
+			[
+				"col",
+				"colspan"
+			],
+			[
+				"li",
+				"line-height: 〔property〕"
+			],
+			[
+				"cl",
+				"colspan	Attr"
+			],
+			[
+				"m",
+				"mbox"
+			],
+			[
+				"mbo",
+				"$mbox〔variable〕"
+			],
+			[
+				"mb",
+				"$mbox〔variable〕"
+			],
+			[
+				"pub",
+				"public〔keyword〕"
+			],
+			[
+				"function",
+				"create_function"
+			],
+			[
+				"label",
+				"$lable〔variable〕"
+			],
+			[
+				"name",
+				"$names〔variable〕"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"Fol",
+				"FolderInterface"
+			],
+			[
+				"abs",
+				"abstract〔keyword〕"
+			],
+			[
+				"st",
+				"$status〔variable〕"
+			],
+			[
+				"array_p",
+				"array_push〔function〕"
+			],
+			[
+				"s",
+				"status"
+			],
+			[
+				"fora",
+				"foreach〔keyword〕"
+			],
+			[
+				"cre",
+				"$cred〔variable〕"
+			],
+			[
+				"register",
+				"registerFacades"
+			],
+			[
+				"de",
+				"$decrypted〔variable〕"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"term",
+				"$term〔variable〕"
+			],
+			[
+				"globa",
+				"global〔keyword〕"
+			],
+			[
+				"wpa",
+				"$wp_admin_bar〔variable〕"
+			],
+			[
+				"varu",
+				"var_dump〔function〕"
+			],
+			[
+				"quer",
+				"query_where"
+			],
+			[
+				"q",
+				"query_where"
+			],
+			[
+				"query",
+				"$query〔variable〕"
+			],
+			[
+				"href",
+				"href=〔attribute〕"
+			],
+			[
+				"me",
+				"menu_name"
+			],
+			[
+				"unse",
+				"unset〔keyword〕"
+			],
+			[
+				"args",
+				"$args〔variable〕"
+			],
+			[
+				"curr",
+				"$current_user〔variable〕"
+			],
+			[
+				"filter",
+				"$filter〔variable〕"
+			],
+			[
+				"rol",
+				"$role〔variable〕"
+			],
+			[
+				"currn",
+				"current_user"
+			],
+			[
+				"var_",
+				"var_dump"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"in",
+				"$inline〔variable〕"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"comm",
+				"comm-html	Comment - HTML comment"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/themes/admin/views/Layouts/master.blade.php",
+			"settings":
+			{
+				"buffer_size": 1658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/admin/views/templates/sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 8485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/admin/views/templates/navbar.blade.php",
+			"settings":
+			{
+				"buffer_size": 5145,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"termi",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"martisan",
+				"Sublime Artisan Generate:"
+			],
+			[
+				"art",
+				"Sublime Artisan Generate:"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"artisan",
+				"Package Control: List Unmanaged Packages"
+			]
+		],
+		"width": 746.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mehulkatpara/Projects/Katpara",
+		"/Users/mehulkatpara/Projects/Katpara/components",
+		"/Users/mehulkatpara/Projects/Katpara/components/Dashboard",
+		"/Users/mehulkatpara/Projects/Katpara/public",
+		"/Users/mehulkatpara/Projects/Katpara/public/styles",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/assets",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/assets/css",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/views",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/views/templates",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/assets",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/views",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/views/Layouts",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/views/pages",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/views/templates"
+	],
+	"file_history":
+	[
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/views/dashboard/index.blade.php",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/assets/css/custom.css",
+		"/Users/mehulkatpara/Projects/Katpara/components/Dashboard/Controllers/DashboardController.php",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/views/templates/navbar.blade.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Dashboard/Http/routes.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Core/Providers/CoreServiceProvider.php",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/default/views/Layouts/master.blade.php",
+		"/Users/mehulkatpara/Projects/Katpara/public/themes/admin/views/test.blade.php",
+		"/Users/mehulkatpara/Projects/vegrant/hello.php",
+		"/Users/mehulkatpara/Projects/vegrant/bootstrap.sh",
+		"/Users/mehulkatpara/Projects/vcomp/vam/wp-content/themes/vam/style.css",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_geth2.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_login2.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/css/sumac.css",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/css/sumac_signup2.css",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_http.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_add_user.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/directories2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/courses_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/courses_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/courses2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/courses2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/contact_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/contact_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/singleform2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/singleform2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/signup2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/signup2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/membership_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/membership_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/membership2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/membership2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/grantreview2r_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/grantreview2r_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/grantreview2g_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/grantreview2g_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/donation_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/donation_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/donation2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/donation2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/directories2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_identify_user.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/ticketing2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/ticketing2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/ticketing_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/ticketing_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/volman2_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/volman2_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/volman2o_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/volman2o_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/volman2w_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/volman2w_top.htm",
+		"/Users/mehulkatpara/Projects/vcomp/itek/import/15072015/sku_delete.csv",
+		"/Users/mehulkatpara/Downloads/oxt_catalog_product_entity.sql",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_course_chosen.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac_constants.php",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/sumac.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/directories_bottom.htm",
+		"/Users/mehulkatpara/Projects/vcomp/vam/sumac/user/directories_top.htm",
+		"/Users/mehulkatpara/Projects/Katpara/vendor/igaster/laravel-theme/src/Themes.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Customer/Http/routes.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Customer/Models/User.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Customer/Database/Seeders/CustomerDatabaseSeeder.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Customer/Controllers/CustomerController.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Customer/Controllers/AuthController.php",
+		"/Users/mehulkatpara/Projects/Katpara/config/app.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Core/Http/routes.php",
+		"/Users/mehulkatpara/Projects/Katpara/config/view.php",
+		"/Users/mehulkatpara/Projects/Katpara/config/auth.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Core/Controllers/HomeController.php",
+		"/Users/mehulkatpara/Projects/Katpara/config/entrust.php",
+		"/Users/mehulkatpara/Projects/Katpara/components/Customer/Database/Migrations/2015_07_13_190612_create_customer_tabels.php",
+		"/Users/mehulkatpara/Projects/Katpara/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/mehulkatpara/Projects/Katpara/.env",
+		"/Users/mehulkatpara/Projects/Katpara/composer.json",
+		"/Users/mehulkatpara/Projects/Katpara/config/themes.php",
+		"/Users/mehulkatpara/Projects/Katpara/config/modules.php",
+		"/Users/mehulkatpara/Desktop/Home.html",
+		"/Users/mehulkatpara/Projects/katpara/app/Http/Controllers/Auth/AuthController.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Database/Seeders/CustomerDatabaseSeeder.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Database/Migrations/2015_07_04_033026_create_customer_tables.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Controllers/LoginController.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/assets/css/custom.css",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/Layouts/master.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/pages/home.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/assets/js/home.js",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Models/User.php",
+		"/Users/mehulkatpara/Projects/katpara/resources/lang/en/core.php",
+		"/Users/mehulkatpara/Projects/katpara/readme.md",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Http/routes.php",
+		"/Users/mehulkatpara/Projects/katpara/vendor/igaster/laravel-theme/src/Themes.php",
+		"/Users/mehulkatpara/Projects/katpara/config/app.php",
+		"/Users/mehulkatpara/Projects/katpara/public/javascripts/validator.js",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/templates/navbar.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Core/Http/routes.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Controllers/CustomerController.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Core/Controllers/HomeController.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/templates/footer.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Resources/views/layouts/master.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/resources/lang/en/page/home.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Core/Resources/lang/en/home.php",
+		"/Users/mehulkatpara/Projects/katpara/composer.json",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/assets/css/carousel.css",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/pages/includes/carousel.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/vendor/igaster/laravel-theme/src/Theme.php",
+		"/Users/mehulkatpara/Projects/katpara/config/themes.php",
+		"/Users/mehulkatpara/Projects/katpara/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/Layouts/Master.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Core/Controllers/CoreController.php",
+		"/Users/mehulkatpara/Projects/katpara/resources/views/welcome.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/config/view.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Core/Providers/CoreServiceProvider.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/page/home.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Providers/CustomerServiceProvider.php",
+		"/Users/mehulkatpara/Projects/katpara/public/themes/default/views/index.blade.php",
+		"/Users/mehulkatpara/Projects/katpara/config/auth.php",
+		"/Users/mehulkatpara/Projects/katpara/public/.htaccess",
+		"/Users/mehulkatpara/Projects/katpara/config/modules.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Models/Role.php",
+		"/Users/mehulkatpara/Projects/katpara/config/entrust.php",
+		"/Users/mehulkatpara/Projects/katpara/app/User.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Customer/Models/Permission.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Auth/Database/Migrations/2015_07_04_031445_create_auth_tables.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Auth/Http/routes.php",
+		"/Users/mehulkatpara/Projects/katpara/components/Auth/Controllers/AuthController.php",
+		"/Users/mehulkatpara/Projects/katpara/app/Http/routes.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sumac_subtitle1",
+			"for signing",
+			"for signing ",
+			"title",
+			"sumac_login2_account_fields",
+			"sumac_geth2_divtag",
+			"sumac_login2_content\nsumac_geth2_divtag",
+			"sumac_div_signup2_link_to_sumac",
+			"sumac_geth2_body_footer",
+			"sumac_login2_account_fields",
+			"function sumac_destroy_session",
+			"sumac_destroy_session",
+			"sumac_decodeDocumentContent",
+			"sumac_loadLoginAccountDocument",
+			"sumac_decodeDocumentContent",
+			"sumac_loadXMLDoc",
+			"sumac_convertXMLSpecialChars",
+			"print_r",
+			"var_du",
+			"print_r",
+			"sumac_processLoginResult",
+			"sumac_userXMLAttributes",
+			"print_r",
+			"var_du",
+			"accountDocument",
+			"var",
+			"sumac_postEncryptedXMLData",
+			"sumac_loadLoginAccountDocument",
+			"sumac_userIncludesForLogin",
+			"sumac_convertXMLSpecialChars",
+			"sumac_userXMLAttributes",
+			"adduser",
+			"sumac_processLoginResult",
+			"adduser",
+			"include",
+			"mysql",
+			"if (!isset($_SESSION[SUMAC_SESSION_SOURCE])) //or we could check 'port'\n	{\n		sumac_destroy_session(sumac_formatMessage($_SESSION[SUMAC_STR][\"AE7\"],$_SESSION[SUMAC_SESSION_ORGANISATION_NAME]) . $_SESSION[SUMAC_STR][\"AE5\"]);\n		return;\n	",
+			"failed",
+			"transaction",
+			"with",
+			"\\Redirect::",
+			"remember",
+			"me",
+			"username",
+			"ular.min.js' ) !!}\n		{!! HTML::script ( 'javascripts/ang",
+			"DB",
+			"role",
+			"Role",
+			"role",
+			"owner",
+			"email",
+			"demo",
+			"New",
+			"register",
+			"style",
+			"link",
+			"view",
+			"\n    /**\n     * The data instance.\n     *\n     * @var array\n     */\n    protected $data;",
+			"src",
+			"href",
+			"height",
+			"270",
+			"250",
+			"=>",
+			" =>",
+			"CA",
+			"10",
+			"11",
+			"define",
+			"40",
+			"w1",
+			"30",
+			"height",
+			"page_width",
+			"shipAddressData",
+			"	,",
+			",",
+			"	,",
+			",",
+			"40",
+			"session",
+			"upload",
+			"shipping",
+			"billing",
+			"paypal",
+			"paypal-js",
+			"discount",
+			"blind-ship",
+			"product_list",
+			"messages",
+			"Product",
+			"Product name",
+			"radio",
+			"Save",
+			"billing",
+			"street1",
+			"billing",
+			"street1",
+			"disc",
+			"billing-new-address-form",
+			"bill",
+			"important",
+			"Please specify shipping method",
+			"shipping_method",
+			"url ",
+			"url = 'index.php?route=product/search';",
+			"search",
+			"<div id=\"search\">",
+			"important",
+			"\"price\"",
+			"regular-price",
+			"_regularPrice",
+			"_price_text",
+			"control",
+			"control ",
+			"view more",
+			"view mo",
+			"cart_shipping",
+			"get_side",
+			"get_si",
+			"getEmailHomePath",
+			");",
+			"CoreConfig::get(1)",
+			"config",
+			"connection",
+			"Connection",
+			"connection",
+			"box"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/themes/admin/views/Layouts/master.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/themes/admin/views/templates/sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8485,
+								8485
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1642.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/themes/admin/views/templates/navbar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5145,
+								5145
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "katpara.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"vendor/igaster/laravel-theme/src/Themes.php"
+			],
+			[
+				"authco",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"them",
+				"vendor/igaster/laravel-theme/src/Themes.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"mas",
+				"public/themes/default/views/Layouts/master.blade.php"
+			],
+			[
+				"master",
+				"components/Customer/Resources/views/layouts/master.blade.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"themes",
+				"vendor/igaster/laravel-theme/src/Themes.php"
+			],
+			[
+				"themes.php",
+				"vendor/igaster/laravel-theme/src/Themes.php"
+			],
+			[
+				"theme.php",
+				"vendor/igaster/laravel-theme/src/Theme.php"
+			],
+			[
+				"controlle",
+				"vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+			],
+			[
+				"controll",
+				"vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+			],
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"emai",
+				"components/Email/Controllers/EmailController.php"
+			],
+			[
+				"handlee",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php"
+			],
+			[
+				"mailbox.",
+				"vendor/ddeboer/imap/src/Mailbox.php"
+			],
+			[
+				"auth",
+				"components/Auth/Controllers/AuthController.php"
+			],
+			[
+				"wp-blo",
+				"wp-blog-header.php"
+			],
+			[
+				"custom",
+				"custom.css"
+			],
+			[
+				"contro",
+				"vendor/pingpong/modules/Routing/Controller.php"
+			],
+			[
+				"defaul",
+				"public/themes/default/layouts/default.blade.php"
+			],
+			[
+				"topba",
+				"public/themes/default/partials/header/topbar.blade.php"
+			],
+			[
+				"admin",
+				"public/themes/default/partials/header/admin.blade.php"
+			],
+			[
+				"conf",
+				"public/themes/default/config.php"
+			],
+			[
+				"defa",
+				"public/themes/default/layouts/default.blade.php"
+			],
+			[
+				"controller",
+				"vendor/pingpong/modules/Routing/Controller.php"
+			],
+			[
+				"authc",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"sidebar.php",
+				"wp-includes/theme-compat/sidebar.php"
+			],
+			[
+				"arrayble",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Support/Arrayable.php"
+			],
+			[
+				"auto",
+				"bootstrap/autoload.php"
+			],
+			[
+				"provide",
+				"vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php"
+			],
+			[
+				"filevi",
+				"vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php"
+			],
+			[
+				"appl",
+				"vendor/classpreloader/classpreloader/src/Application.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"con",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"c",
+				"composer.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 953.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

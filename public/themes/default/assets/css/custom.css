@@ -1,0 +1,82 @@
+/*===================================
+=            Master Page            =
+===================================*/
+
+.main {
+	margin-top: 40px;
+	padding: 0;
+}
+
+/*-----  End of Master Page  ------*/
+
+
+/*=================================
+=            Home Page            =
+=================================*/
+    
+.navbar-inner {
+  box-shadow: none;
+  border: none;
+}
+.dropdown-menu {
+  margin-top: 6px;
+}
+
+.navbar-inner {
+  background-image: none;
+  background-color: #ffffff;
+}
+
+.dropdown-menu > li > a:hover,
+.navbar .nav li.dropdown.open>.dropdown-toggle,
+.navbar .nav li.dropdown.active>.dropdown-toggle, 
+.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+  color: #ffffff;
+  background-image: none;
+  background-color: #2780e3;
+  font-weight: normal;
+  text-shadow: none;
+}    
+    
+.navbar .nav li.dropdown.open>.dropdown-toggle>.caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.btn-block {
+  background-image: none;
+  background-color: #2780e3;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#login_form {
+	margin-bottom: 10px;
+}
+
+#login_form .form-group {
+	padding-bottom: 5px;
+}
+
+#login_form .form-group.remember {
+	padding: 0;
+	margin: 0;
+}
+
+#login_form .form-group.last {
+	padding-bottom: 0px;
+}
+
+#login_form #username,
+#login_form #password {
+	border-radius: 0px;
+	padding: 8px 5px;
+}
+
+/*-----  End of Home Page  ------*/
+
+.form-control {
+  border-radius: 0 !important;
+  height: 18px !important;
+}

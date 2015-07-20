@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Katpara
+        psr4_prefix: Katpara
+        src_path: app

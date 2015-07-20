@@ -1,0 +1,15 @@
+{
+    "name": "Business",
+    "alias": "business",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Components\\Business\\Providers\\BusinessServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

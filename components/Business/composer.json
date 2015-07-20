@@ -1,0 +1,15 @@
+{
+	"name": "Katpara/business",
+	"description": "",
+	"authors": [
+		{
+			"name": "Mehul Katpara",
+			"email": "mehulkatpara24@yahoo.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Components\\Business\\": ""
+		}
+	}
+}

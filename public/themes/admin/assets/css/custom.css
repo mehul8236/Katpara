@@ -1,0 +1,15 @@
+.main {
+	padding-top: 40px;
+}
+
+.logo {
+	padding: 0px !important;
+}
+
+.navbar-custom-menu>.navbar-nav>li {
+	line-height: 30px !important;
+}
+
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+	z-index: -100;
+}
