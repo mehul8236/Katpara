@@ -153,7 +153,7 @@ return [
         igaster\laravelTheme\themeServiceProvider::class,
         Roumen\Asset\AssetServiceProvider::class,
         Torann\GeoIP\GeoIPServiceProvider::class,
-        Webpatser\Countries\CountriesServiceProvider::class
+        Webpatser\Countries\CountriesServiceProvider::class,
 
     ],
 

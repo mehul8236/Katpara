@@ -16,9 +16,17 @@ class BusinessDatabaseSeeder extends Seeder {
 		 
 		//Empty the tables
         \DB::table('countries')->delete();
+        \DB::table('states')->delete();
         \DB::table('fields')->delete();
 
-        $fields = [
+        $this->updateFields();
+        $this->updateCountries();
+        $this->updateStates();
+	}
+
+	private function updateFields()
+	{
+		$fields = [
         	['id' => '1' , 'name' => 'agriculture', 'label' => 'Agriculture', 'description' => 'Agriculture industry'],
         	['id' => '2' , 'name' => 'accounting', 'label' => 'Accounting', 'description' => 'Accounting industry'],
         	['id' => '3' , 'name' => 'advertising', 'label' => 'Advertising', 'description' => 'Advertising industry'],
@@ -77,32 +85,132 @@ class BusinessDatabaseSeeder extends Seeder {
         ];
 
         \DB::table('fields')->insert($fields);
+	}
 
-        //Get all of the countries
+	private function updateCountries()
+	{
+		//Get all of the countries
         $countries = \Countries::getList();
         foreach ($countries as $countryId => $country){
             \DB::table('countries')->insert(array(
                 'id' => $countryId,
-                'capital' => ((isset($country['capital'])) ? $country['capital'] : null),
-                'citizenship' => ((isset($country['citizenship'])) ? $country['citizenship'] : null),
                 'country_code' => $country['country-code'],
                 'currency' => ((isset($country['currency'])) ? $country['currency'] : null),
                 'currency_code' => ((isset($country['currency_code'])) ? $country['currency_code'] : null),
-                'currency_sub_unit' => ((isset($country['currency_sub_unit'])) ? $country['currency_sub_unit'] : null),
                 'full_name' => ((isset($country['full_name'])) ? $country['full_name'] : null),
                 'iso_3166_2' => $country['iso_3166_2'],
                 'iso_3166_3' => $country['iso_3166_3'],
                 'name' => $country['name'],
-                'region_code' => $country['region-code'],
-                'sub_region_code' => $country['sub-region-code'],
-                'eea' => (bool)$country['eea'],
                 'calling_code' => $country['calling_code'],
                 'currency_symbol' => ((isset($country['currency_symbol'])) ? $country['currency_symbol'] : null),
                 'flag' =>((isset($country['flag'])) ? $country['flag'] : null),
             ));
         }
-
-
 	}
 
+	private function updateStates()
+	{
+		$us= \DB::table('countries')->where('name', 'United States')->first();
+		$america_id = $us->id;
+
+		$ca= \DB::table('countries')->where('name', 'Canada')->first();
+		$canada_id = $ca->id;
+
+		$au= \DB::table('countries')->where('name', 'Austria')->first();
+		$australia_id = $au->id;
+
+		$america = [
+			[ 'id' => '1' , 'country_id' => $america_id, 'region_code' => 'AL', 'name' => 'Alabama'],
+			[ 'id' => '2' , 'country_id' => $america_id, 'region_code' => 'AK', 'name' => 'Alaska'],
+			[ 'id' => '3' , 'country_id' => $america_id, 'region_code' => 'AS', 'name' => 'American Samoa'],
+			[ 'id' => '4' , 'country_id' => $america_id, 'region_code' => 'AZ', 'name' => 'Arizona'],
+			[ 'id' => '5' , 'country_id' => $america_id, 'region_code' => 'AR', 'name' => 'Arkansas'],
+			[ 'id' => '6' , 'country_id' => $america_id, 'region_code' => 'CA', 'name' => 'California'],
+			[ 'id' => '7' , 'country_id' => $america_id, 'region_code' => 'CO', 'name' => 'Colorado'],
+			[ 'id' => '8' , 'country_id' => $america_id, 'region_code' => 'CT', 'name' => 'Connecticut'],
+			[ 'id' => '9' , 'country_id' => $america_id, 'region_code' => 'DE', 'name' => 'Delaware'],
+			[ 'id' => '10', 'country_id' => $america_id, 'region_code' => 'DC', 'name' => 'District of Columbia'],
+			[ 'id' => '11', 'country_id' => $america_id, 'region_code' => 'FM', 'name' => 'Federated States of Micronesia'],
+			[ 'id' => '12', 'country_id' => $america_id, 'region_code' => 'FL', 'name' => 'Florida'],
+			[ 'id' => '13', 'country_id' => $america_id, 'region_code' => 'GA', 'name' => 'Georgia'],
+			[ 'id' => '14', 'country_id' => $america_id, 'region_code' => 'GU', 'name' => 'Guam'],
+			[ 'id' => '15', 'country_id' => $america_id, 'region_code' => 'HI', 'name' => 'Hawaii'],
+			[ 'id' => '16', 'country_id' => $america_id, 'region_code' => 'ID', 'name' => 'Idaho'],
+			[ 'id' => '17', 'country_id' => $america_id, 'region_code' => 'IL', 'name' => 'Illinois'],
+			[ 'id' => '18', 'country_id' => $america_id, 'region_code' => 'IN', 'name' => 'Indiana'],
+			[ 'id' => '19', 'country_id' => $america_id, 'region_code' => 'IA', 'name' => 'Iowa'],
+			[ 'id' => '20', 'country_id' => $america_id, 'region_code' => 'KS', 'name' => 'Kansas'],
+			[ 'id' => '21', 'country_id' => $america_id, 'region_code' => 'KY', 'name' => 'Kentucky'],
+			[ 'id' => '22', 'country_id' => $america_id, 'region_code' => 'LA', 'name' => 'Louisiana'],
+			[ 'id' => '23', 'country_id' => $america_id, 'region_code' => 'ME', 'name' => 'Maine'],
+			[ 'id' => '24', 'country_id' => $america_id, 'region_code' => 'MH', 'name' => 'Marshall Islands'],
+			[ 'id' => '25', 'country_id' => $america_id, 'region_code' => 'MD', 'name' => 'Maryland'],
+			[ 'id' => '26', 'country_id' => $america_id, 'region_code' => 'MA', 'name' => 'Massachusetts'],
+			[ 'id' => '27', 'country_id' => $america_id, 'region_code' => 'MI', 'name' => 'Michigan'],
+			[ 'id' => '28', 'country_id' => $america_id, 'region_code' => 'MN', 'name' => 'Minnesota'],
+			[ 'id' => '29', 'country_id' => $america_id, 'region_code' => 'MS', 'name' => 'Mississippi'],
+			[ 'id' => '30', 'country_id' => $america_id, 'region_code' => 'MO', 'name' => 'Missouri'],
+			[ 'id' => '31', 'country_id' => $america_id, 'region_code' => 'MT', 'name' => 'Montana'],
+			[ 'id' => '32', 'country_id' => $america_id, 'region_code' => 'NE', 'name' => 'Nebraska'],
+			[ 'id' => '33', 'country_id' => $america_id, 'region_code' => 'NV', 'name' => 'Nevada'],
+			[ 'id' => '34', 'country_id' => $america_id, 'region_code' => 'NH', 'name' => 'New Hampshire'],
+			[ 'id' => '35', 'country_id' => $america_id, 'region_code' => 'NJ', 'name' => 'New Jersey'],
+			[ 'id' => '36', 'country_id' => $america_id, 'region_code' => 'NM', 'name' => 'New Mexico'],
+			[ 'id' => '37', 'country_id' => $america_id, 'region_code' => 'NY', 'name' => 'New York'],
+			[ 'id' => '38', 'country_id' => $america_id, 'region_code' => 'NC', 'name' => 'North Carolina'],
+			[ 'id' => '39', 'country_id' => $america_id, 'region_code' => 'ND', 'name' => 'North Dakota'],
+			[ 'id' => '40', 'country_id' => $america_id, 'region_code' => 'MP', 'name' => 'Northern Mariana Islands'],
+			[ 'id' => '41', 'country_id' => $america_id, 'region_code' => 'OH', 'name' => 'Ohio'],
+			[ 'id' => '42', 'country_id' => $america_id, 'region_code' => 'OK', 'name' => 'Oklahoma'],
+			[ 'id' => '43', 'country_id' => $america_id, 'region_code' => 'OR', 'name' => 'Oregon'],
+			[ 'id' => '44', 'country_id' => $america_id, 'region_code' => 'PW', 'name' => 'Palau'],
+			[ 'id' => '45', 'country_id' => $america_id, 'region_code' => 'PA', 'name' => 'Pennsylvania'],
+			[ 'id' => '46', 'country_id' => $america_id, 'region_code' => 'PR', 'name' => 'Puerto Rico'],
+			[ 'id' => '47', 'country_id' => $america_id, 'region_code' => 'RI', 'name' => 'Rhode Island'],
+			[ 'id' => '48', 'country_id' => $america_id, 'region_code' => 'SC', 'name' => 'South Carolina'],
+			[ 'id' => '49', 'country_id' => $america_id, 'region_code' => 'SD', 'name' => 'South Dakota'],
+			[ 'id' => '50', 'country_id' => $america_id, 'region_code' => 'TN', 'name' => 'Tennessee'],
+			[ 'id' => '51', 'country_id' => $america_id, 'region_code' => 'TX', 'name' => 'Texas'],
+			[ 'id' => '52', 'country_id' => $america_id, 'region_code' => 'UT', 'name' => 'Utah'],
+			[ 'id' => '53', 'country_id' => $america_id, 'region_code' => 'VT', 'name' => 'Vermont'],
+			[ 'id' => '54', 'country_id' => $america_id, 'region_code' => 'VI', 'name' => 'Virgin Islands'],
+			[ 'id' => '55', 'country_id' => $america_id, 'region_code' => 'VA', 'name' => 'Virginia'],
+			[ 'id' => '56', 'country_id' => $america_id, 'region_code' => 'WA', 'name' => 'Washington'],
+			[ 'id' => '57', 'country_id' => $america_id, 'region_code' => 'WV', 'name' => 'West Virginia'],
+			[ 'id' => '58', 'country_id' => $america_id, 'region_code' => 'WI', 'name' => 'Wisconsin'],
+			[ 'id' => '59', 'country_id' => $america_id, 'region_code' => 'WY', 'name' => 'Wyoming']
+		];
+
+		$canada = [
+			[ 'id' => '60', 'country_id' => $canada_id, 'region_code' => 'AB', 'name' => 'Alberta'],
+			[ 'id' => '61', 'country_id' => $canada_id, 'region_code' => 'BC', 'name' => 'British Columbia'],
+			[ 'id' => '62', 'country_id' => $canada_id, 'region_code' => 'MB', 'name' => 'Manitoba'],
+			[ 'id' => '63', 'country_id' => $canada_id, 'region_code' => 'NB', 'name' => 'New Brunswick'],
+			[ 'id' => '64', 'country_id' => $canada_id, 'region_code' => 'NL', 'name' => 'Newfoundland and Labrador'],
+			[ 'id' => '65', 'country_id' => $canada_id, 'region_code' => 'NS', 'name' => 'Nova Scotia'],
+			[ 'id' => '66', 'country_id' => $canada_id, 'region_code' => 'ON', 'name' => 'Ontario'],
+			[ 'id' => '67', 'country_id' => $canada_id, 'region_code' => 'PE', 'name' => 'Prince Edward Island'],
+			[ 'id' => '68', 'country_id' => $canada_id, 'region_code' => 'QC', 'name' => 'Quebec'],
+			[ 'id' => '69', 'country_id' => $canada_id, 'region_code' => 'SK', 'name' => 'Saskatchewan'],
+			[ 'id' => '70', 'country_id' => $canada_id, 'region_code' => 'NT', 'name' => 'Northwest Territories'],
+			[ 'id' => '71', 'country_id' => $canada_id, 'region_code' => 'NU', 'name' => 'Nunavut'],
+			[ 'id' => '72', 'country_id' => $canada_id, 'region_code' => 'YT', 'name' => 'Yukon Territory']
+		];
+
+		$australia = [
+			[ 'id' => '73', 'country_id' => $australia_id, 'region_code' => 'NSW', 'name' => 'New South Wales'],
+			[ 'id' => '74', 'country_id' => $australia_id, 'region_code' => 'QLD', 'name' => 'Queensland'],
+			[ 'id' => '75', 'country_id' => $australia_id, 'region_code' => 'SA', 'name' => 'South Australia'],
+			[ 'id' => '76', 'country_id' => $australia_id, 'region_code' => 'TAS', 'name' => 'Tasmania'],
+			[ 'id' => '77', 'country_id' => $australia_id, 'region_code' => 'VIC', 'name' => 'Victoria'],
+			[ 'id' => '78', 'country_id' => $australia_id, 'region_code' => 'WA', 'name' => 'Western Australia'],
+			[ 'id' => '79', 'country_id' => $australia_id, 'region_code' => 'ACT', 'name' => 'Capital Territory'],
+			[ 'id' => '80', 'country_id' => $australia_id, 'region_code' => 'NT', 'name' => 'Northern Territory']
+		];
+
+		\DB::table('states')->insert($america);
+		\DB::table('states')->insert($canada);
+		\DB::table('states')->insert($australia);
+
+	}
 }
