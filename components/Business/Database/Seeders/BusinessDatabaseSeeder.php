@@ -2,6 +2,11 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
+use Components\Customer\Models\User;
+use Components\Business\Models\Business;
+use Components\Business\Models\Location;
+use Components\Business\Models\State;
+use Components\Business\Models\Field;
 
 class BusinessDatabaseSeeder extends Seeder {
 
@@ -22,6 +27,7 @@ class BusinessDatabaseSeeder extends Seeder {
         $this->updateFields();
         $this->updateCountries();
         $this->updateStates();
+        $this->updateBusiness();
 	}
 
 	private function updateFields()
@@ -212,5 +218,27 @@ class BusinessDatabaseSeeder extends Seeder {
 		\DB::table('states')->insert($canada);
 		\DB::table('states')->insert($australia);
 
+	}
+
+	public function updateBusiness()
+	{
+		$user = User::where('username', 'mehul8236')->firstOrFail();
+		$field = Field::where('name', 'computer')->firstOrFail();
+		$dt = \Carbon::create(1975, 12, 25, 14, 15, 16);
+		$time = $dt->toTimeString(); 
+
+		$business = new Business(['name' => 'Katpara', 'description' => 'Katpara Business', 'open' => $time, 'close' => $time, 'phone' => '6478678236', 
+											 'email' => 'mehulkatpara24@gmail.com', 'logo' => 'katpara.png', 'dir' => 'katpara', 'field_id' => $field->id]);
+
+		$state = State::where('name', 'Ontario')->firstOrFail();
+		$state_id = $state->id;
+		$country_id = $state->country_id;
+		
+		$location = new Location(['name' => 'home', 'description' => 'Home Location', 'type' => 'default', 
+					'street1' => '6, Curtis Drive', 'city' => 'Brampton', 'postalcode' => 'L6Y 2J4', 'country_id' => $country_id, 'region_id' => $state_id]);
+		
+		$user->businesses()->save($business);
+		$business->locations()->save($location);
+		
 	}
 }

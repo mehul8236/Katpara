@@ -49,26 +49,12 @@ class CreateBusinessTables extends Migration {
                   ->onUpdate('cascade')->onDelete('cascade');
         });
 
-        // create table to store business address
-        Schema::create('addresses', function(Blueprint $table){ 
-            $table->increments('id');
-            $table->string('street1');
-            $table->string('street2');
-            $table->string('city');
-            $table->string('postalcode');
-            $table->integer('region_id')->unsigned();
-            $table->integer('country_id')->unsigned();
-            $table->foreign('region_id')->references('id')->on('states');
-            $table->foreign('country_id')->references('id')->on('countries');
-        });
-
         // create table to store business informations
         Schema::create('businesses', function(Blueprint $table)
         {
             $table->increments('id');
             $table->integer('user_id')->unsigned();
             $table->integer('field_id')->unsigned();
-            $table->integer('address_id')->unsigned();
             $table->string('name');
             $table->longText('description')->nullable();
             $table->time('open')->nullable();
@@ -81,21 +67,26 @@ class CreateBusinessTables extends Migration {
             $table->foreign('user_id')->references('id')->on('users')
                   ->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('field_id')->references('id')->on('fields');
-            $table->foreign('address_id')->references('id')->on('addresses')
-                  ->onUpdate('cascade')->onDelete('cascade');
         });
 
         // create table to store business locations
         Schema::create('locations', function(Blueprint $table){ 
             $table->increments('id');
             $table->integer('business_id')->unsigned();
-            $table->integer('address_id')->unsigned();
             $table->string('name');
             $table->longText('description')->nullable();
+            $table->enum('type', ['default', 'location']);
+            $table->string('street1');
+            $table->string('street2')->nullable();
+            $table->string('city');
+            $table->string('postalcode');
+            $table->integer('region_id')->unsigned();
+            $table->integer('country_id')->unsigned();
+            $table->timestamps();
+            $table->foreign('region_id')->references('id')->on('states');
+            $table->foreign('country_id')->references('id')->on('countries');
             $table->foreign('business_id')->references('id')->on('businesses')
                   ->onUpdate('cascade')->onDelete('cascade');
-            $table->foreign('address_id')->references('id')->on('addresses')
-                   ->onUpdate('cascade')->onDelete('cascade');
         });
 
     }
@@ -109,7 +100,6 @@ class CreateBusinessTables extends Migration {
     {
         Schema::dropIfExists('locations');
         Schema::dropIfExists('businesses');
-        Schema::dropIfExists('addresses');
         Schema::dropIfExists('states');
         Schema::dropIfExists('countries');
         Schema::dropIfExists('fields');

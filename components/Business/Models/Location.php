@@ -16,8 +16,7 @@ class Location extends Model {
      *
      * @var array
      */
-    protected $fillable = ['name', 'description', 'street1', 'street2', 'city', 'region', 
-    					   'postalcode', 'country', 'country_code', 'region_code'];
+    protected $fillable = ['name', 'description', 'type', 'street1', 'street2', 'city', 'postalcode', 'country_id', 'region_id'];
 
     /**
      * The attributes will be guarded.
@@ -25,5 +24,15 @@ class Location extends Model {
      * @var array
      */
     protected $guarded = ['id', 'business_id'];
+
+    public function country()
+    {
+        return $this->hasOne('Components\Business\Models\Country');
+    }
+
+    public function state()
+    {
+        return $this->hasOne('Components\Business\Models\State');
+    }
 
 }

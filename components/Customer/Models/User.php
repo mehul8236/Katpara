@@ -63,20 +63,21 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         if("object" == gettype($date) && "string" == gettype($ip))
         {
-            $login = Login::where('user_id', $this->id)->first();
-            if(null == $login)
-            {
-                $login = new Login;
-                $login->user_id = $this->id;
-            }
+            // $login = Login::where('user_id', $this->id)->firstOrCreate(['logged_in' => $date, 'ip' => ]);
 
-            $login->logged_in = $date;
-            $login->ip = $ip;
-            $login->save();
+            // $login-> = $date;
+            // $login->ip = $ip;
+            // $login->save();
+
             return true;
         }
 
         return false;
+    }
+
+    public function businesses()
+    {
+        return $this->hasMany('Components\Business\Models\Business');
     }
 
     public function login()
